@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+.full-page-box {
+  display: flex;
+  width: 300vw;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid;
+  font-size: 300px;
+  text-transform: uppercase;
+}
+#page1 {
+  background-color: #f18a6e;
+}
+#page2 {
+  background-color: #ffbd63;
+}
+#page3 {
+  background-color: #f9f871;
+}
+.link-box {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 100px;
+  left: calc(50vw - 30px);
+}
+.link-box a div {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: black;
+}
